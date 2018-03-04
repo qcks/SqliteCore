@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<update_db>
+    <update version="2">
+        <dbNames dbName="main.db">
+            <updateTable tableName="all_daba_type_table">
+                <sql>alter table all_daba_type_table add column student_name text;</sql>
+            </updateTable>
+        </dbNames>
+        <dbNames dbName="other.db">
+            <updateTable tableName="user">
+                <sql>alter table user...</sql>
+            </updateTable>
+        </dbNames>
+    </update>
+
+    <update version="3">
+        <dbNames dbName="main.db">
+            <updateTable tableName="all_daba_type_table">
+                <sql>alter table all_daba_type_table add column student_name text;</sql>
+            </updateTable>
+        </dbNames>
+
+        <dbNames dbName="other.db">
+            <updateTable tableName="user2">
+                <sql>alter table user...</sql>
+            </updateTable>
+        </dbNames>
+    </update>
+</update_db>
+

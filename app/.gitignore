@@ -1,0 +1,33 @@
+#写法规则为："#"表示注释，"*"表示通配符，可多个，"/"表示目录，
+#"!"表示不忽略匹配到的文件或目录，"?"表示通配单个字符，
+#"[]"表示包含单个字符的匹配列表
+#
+
+# built application files
+*.ap_
+
+# files for the dex VM
+*.dex
+*.iml
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+*target/
+*build/
+.gradle/
+.idea/
+gen-external-apklibs/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# Mac os
+.DS_Store
